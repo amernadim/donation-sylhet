@@ -1,0 +1,48 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section */
+.top-banner {
+  height: 100vh;
+  background-image: url(./assets/top-banner-img.jpg);
+  background-position: top center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-text h1{
+  font-size: 60px;
+  font-weight: 800; 
+}
+.banner-text p {
+  font-size: 18px;
+  text-align: center;
+  margin-top: -30px;
+}
+.custom-btn{
+  background-image: linear-gradient(90deg, tomato,rgba(255, 0, 0, 0.746));
+  text-decoration: none;
+  color: white;
+  padding: 15px 30px;
+  border: none; 
+  border-radius: 8px;
+  font-size: 18px;
+
+}
+a {
+  display: inline-block;
+  margin: 20px  0 0 36%;
+  
+}
+
+
+/* Section  */
+/* Section  */
+/* Section  */
+  
