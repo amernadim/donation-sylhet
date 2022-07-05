@@ -8,13 +8,16 @@ body {
 
 .top-banner {
   height: 100vh;
-  background-image: url(./assets/top-banner-img.jpg);
+  background: url(./assets/top-banner-img.jpg), linear-gradient(gray,gray);
   background-position: top center;
   background-size: cover;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.banner-text {
+  background-color: #0b0d1758;
 }
 
 .banner-text h1{
@@ -45,23 +48,18 @@ a {
   color: black;
 }
 
-
-
 /* Section  */
 .donations {
   height: 100vh;
 }
-.donate-text {
-  
-}
-.donate-text h1{
+.donate-text h1,.plan-text h1{
  font-size: 45px;
  font-weight: 600;
  text-align: center;
  margin-top: 100px;
 }
-.donate-text p {
-  font-size: 16px;
+.donate-text p, .plan-text p {
+  font-size: 18px;
   font-weight: 500;
   text-align: center;
   margin-top: -20px;
@@ -109,10 +107,123 @@ button{
   align-items: center; 
 }
 
-
-
-
-
 /* Section  */
-/* Section  */
+.donate-plan {
+  height: auto;
+  margin-top: -10%;
+}
+.flan-items{
+  display: flex;
+  gap: 30px;
+  margin: 30px 13%;
+}
+.plan-fild{
+  padding: 20px; 
+  width: 25%; 
+  border-radius: 5px;
+}
+.fild-text h1 {
+  font-size: 25px;
+  font-weight: 700;
+}
+.fild-text p{
+  font-size: 18px;
+  font-weight:400;
+  color: gray;
+}
+#items-one{
+  background-color:#d7dbdd9a  ;
+}
+#items-two{
+  background-color:#f2d7d5a8 ;
+}
+#items-three{
+  background-color:#f5cba7a7  ;
+}
+/* Bouns Section  */
+
+.contribute-sec {
+  height: auto;
+  margin: 100px 25%;
+  box-shadow: 5px 5px 20px 2px gray;
+  padding: 3%;
+  border-radius: 10px;
   
+}
+.img-fld{
+  align-items: center;
+}
+.img-fld img{
+  width: 100%;
+}
+.txt-fld {
+  width: 100%;
+}
+#btn {
+  margin: 0 auto;
+}
+
+/* Update Section */
+.update-sec {
+  margin: 0px 22%;
+}
+.update-fild {
+  text-align: center;
+}
+.update-fild h1{
+  font-size: 40px;
+  font-weight: 700;
+}
+.update-fild p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: -20px;
+}
+.email-fild {
+  margin-top: 10%;
+  background-color: #F5CBA7 ;
+  box-shadow: 1px 1px 25px 1px rgba(128, 128, 128, 0.426);
+}
+.formm{
+  width: 100%;
+  padding: 2% 2% 7% 7% ;
+  
+}
+
+#mail {
+  width: 60%;
+  height: 40px;
+  background-color: rgba(128, 128, 128, 0.478);
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+.btn {
+  width: 20%;
+  height: 42px;
+  margin-left: -3px ;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: tomato;
+  border: none;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+/* footer */
+footer {
+  text-align: center;
+  padding: 2%;
+  background-color: #0B0D17;
+  margin-top: 10%;
+}
+footer p {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+.clr-one {
+  color: rgba(255, 196, 0, 0.644);
+}
+.clr-two {
+  color: gray;
+}
