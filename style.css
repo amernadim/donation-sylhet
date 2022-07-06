@@ -4,7 +4,7 @@ body {
   padding: 0;
 }
 
-/* Section */
+/* Banner Section */
 
 .top-banner {
   height: 100vh;
@@ -48,7 +48,8 @@ a {
   color: black;
 }
 
-/* Section  */
+/* Donation Section  */
+
 .donations {
   height: 100vh;
 }
@@ -107,7 +108,8 @@ button{
   align-items: center; 
 }
 
-/* Section  */
+/*  Donate Plan Section  */
+
 .donate-plan {
   height: auto;
   margin-top: -10%;
@@ -140,6 +142,7 @@ button{
 #items-three{
   background-color:#f5cba7a7  ;
 }
+
 /* Bouns Section  */
 
 .contribute-sec {
@@ -147,8 +150,7 @@ button{
   margin: 100px 25%;
   box-shadow: 5px 5px 20px 2px gray;
   padding: 3%;
-  border-radius: 10px;
-  
+  border-radius: 10px; 
 }
 .img-fld{
   align-items: center;
@@ -209,7 +211,9 @@ button{
   border-radius: 0 5px 5px 0;
   cursor: pointer;
 }
+
 /* footer */
+
 footer {
   text-align: center;
   padding: 2%;
