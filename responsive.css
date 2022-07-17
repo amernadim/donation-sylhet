@@ -1,0 +1,62 @@
+/* small divice */
+
+@media screen and (max-width:992px) {
+  h1{
+    font-size: 20px;
+  }
+
+  .banner-text{
+    padding: 0 4%;
+  }
+  
+  .donations {
+    height: auto;
+  }
+  .donate-tk ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .flan-items{
+    flex-direction: column;
+    margin: 20px 4%;
+  }
+ .plan-fild{
+  width: 90%; 
+  }
+  .contribute-sec {
+    margin: 100px 2%;  
+  }
+  .update-sec {
+    margin: 0px 2%;
+  }
+  .formm{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;   
+  }
+
+  #mail {
+    margin-top: 5%;
+    width: 90%; 
+    background-color: rgba(128, 128, 128, 0.478);  
+  }
+  .btn {
+    width: 60%;
+    height: 42px;
+    margin: 5px 0 10px 0;
+    font-size: 16px;
+    border-radius: 5px;  
+  }
+  
+  .email-fild{
+    padding: 5% 1%;
+  }  
+}
+/* midium divice */
+@media screen and (min-width:577px) and (max-width:992px) {
+ 
+}

@@ -89,6 +89,12 @@ a {
 .form-fild {
   margin-top: 80px;
 }
+.form-one{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 #Amonut{
   border: none;
   border-bottom:2px solid grey ;
@@ -103,9 +109,6 @@ input::placeholder {
 }
 button{
   margin-top: 40px;
-  margin-left: 42%;
-  display: inline-block;
-  align-items: center; 
 }
 
 /*  Donate Plan Section  */
@@ -231,3 +234,4 @@ footer p {
 .clr-two {
   color: gray;
 }
+
