@@ -12,9 +12,12 @@
   .donations {
     height: auto;
   }
+
   .donate-tk ul {
     flex-direction: column;
     gap: 20px;
+    text-align: center;
+    font-size: 20px;
   }
 
   .flan-items{
